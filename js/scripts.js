@@ -4,6 +4,9 @@
 (function($) {
     "use strict"; 
 	
+	// Get current year :)
+	document.getElementById("year").innerHTML = new Date().getFullYear();
+	
     /* Navbar Scripts */
     // jQuery to collapse the navbar on scroll
     $(window).on('scroll load', function() {
